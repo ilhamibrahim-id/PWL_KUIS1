@@ -15,6 +15,10 @@ class CreateDaftarPegawai extends Migration
     {
         Schema::create('daftar_pegawai', function (Blueprint $table) {
             $table->id();
+            $table->string('title', 100)->index()->nullable();
+            $table->string('slug', 100)->index()->nullable();
+            $table->string('image',100);
+            $table->text('content');
             $table->timestamps();
         });
     }

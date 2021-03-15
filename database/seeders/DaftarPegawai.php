@@ -14,85 +14,65 @@ class DaftarPegawai extends Seeder
      */
     public function run()
     {
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
             'title' => 'Ilham Ibrahim',
             'slug' => 'CEO FOUNDER',
             'image' => 'img/dpe/user.jpg',
-            'harga' => 0,
-            'content' => 'Pendiri dari simple-house.',
-            'draft' => 0
+            'content' => 'Pendiri dari simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Candra Alif Firmansyah',
                 'slug' => 'Marketing',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Pemasaran untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Pemasaran untuk simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Lugas Wicaksono',
                 'slug' => 'Designer',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Desain Produk untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Desain Produk untuk simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Muhammad Hatari',
                 'slug' => 'Konsultan TI',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Analisa untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Analisa untuk simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Supriyadi Sutomo',
                 'slug' => 'Ketua Devisi Programmer',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Mengatur Devisi Programmer untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Mengatur Devisi Programmer untuk simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Bryan Rizky',
                 'slug' => 'Programmer',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Backend untuk simple-house software.',
-                'draft' => 0
+                'content' => 'Bagian Backend untuk simple-house software.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Awang Syukriansah',
                 'slug' => 'Programmer',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Backend untuk simple-house software.',
-                'draft' => 0
+                'content' => 'Bagian Backend untuk simple-house software.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Alam Bakti',
                 'slug' => 'Database Manajemen',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Pengumpulan Data untuk simple-house software.',
-                'draft' => 0
+                'content' => 'Bagian Pengumpulan Data untuk simple-house software.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Reiner Barun',
                 'slug' => 'Psikologi',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Pengumpulan Data Mood Si user untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Pengumpulan Data Mood Si user untuk simple-house.'
             ]);
-        DB::table('post')->insert([
+        DB::table('daftar_pegawai')->insert([
                 'title' => 'Anjasmara',
                 'slug' => 'Sales',
                 'image' => 'img/dpe/user.jpg',
-                'harga' => 0,
-                'content' => 'Bagian Bagi Bagi Browsur untuk simple-house.',
-                'draft' => 0
+                'content' => 'Bagian Bagi Bagi Browsur untuk simple-house.'
             ]);
     }
 }

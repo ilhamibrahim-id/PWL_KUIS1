@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 use App\Models\dbar;
+use App\Models\dpegawai;
 
 class Controller extends BaseController
 {
@@ -34,7 +35,7 @@ class Controller extends BaseController
         return view('Daftar_Pelanggan',['liat'=> $hasilpelanggan]);
        }
        public function Daftar_Pegawai() {
-        $hasilpegawai = Post::all()->skip(31)->take(10);
+        $hasilpegawai = dpegawai::all();
         return view('Daftar_Pegawai',['liat'=> $hasilpegawai]);
        }
        public function Daftar_Supplier() {
