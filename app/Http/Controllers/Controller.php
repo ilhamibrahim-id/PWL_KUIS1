@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 use App\Models\dbar;
 use App\Models\dpegawai;
+use App\Models\Pelanggan;
+use App\Models\Supllier;
 
 class Controller extends BaseController
 {
@@ -31,7 +33,7 @@ class Controller extends BaseController
         return view('Daftar_Barang',['liat'=> $hasilbarang]);
        }
        public function Daftar_Pelanggan() {
-        $hasilpelanggan = Post::all()->skip(21)->take(10);
+        $hasilpelanggan = Pelanggan::all();
         return view('Daftar_Pelanggan',['liat'=> $hasilpelanggan]);
        }
        public function Daftar_Pegawai() {
@@ -39,7 +41,7 @@ class Controller extends BaseController
         return view('Daftar_Pegawai',['liat'=> $hasilpegawai]);
        }
        public function Daftar_Supplier() {
-        $hasilsupllier = Post::all()->skip(41)->take(10);
+        $hasilsupllier = Supllier::all();
         return view('Daftar_Supplier',['liat'=> $hasilsupllier]);
        }
 }

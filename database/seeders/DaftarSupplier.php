@@ -14,84 +14,74 @@ class DaftarSupplier extends Seeder
      */
     public function run()
     {
-        DB::table('post')->insert([
-            'title' => 'PT Berdikari Indonesia',
-            'slug' => 'Supllier Daging',
+        DB::table('supllier')->insert([
+            'nama' => 'PT Berdikari Indonesia',
+            'alamat' => 'Jakarta',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier daging jenis sapi yang di tunjuk oleh mentri perdagangan',
+            'deskripsi' => 'Supllier daging jenis sapi yang di tunjuk oleh mentri perdagangan',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'PT Perusahaan Perdagangan Indonesia',
-            'slug' => 'Supllier Daging',
+        DB::table('supllier')->insert([
+            'nama' => 'PT Perusahaan Perdagangan Indonesia',
+            'alamat' => 'Jakarta',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier daging import yang cukup populer di Indonesia',
+            'deskripsi' => 'Supllier daging import yang cukup populer di Indonesia',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Perum Bulog',
-            'slug' => 'Supllier Sembako',
+        DB::table('supllier')->insert([
+            'nama' => 'Perum Bulog',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier dari BUMN yang sudah sangat terpercaya di Indonesia',
+            'deskripsi' => 'Supllier dari BUMN yang sudah sangat terpercaya di Indonesia',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Dapur Rempah',
-            'slug' => 'Supllier Rempah Rempah',
+        DB::table('supllier')->insert([
+            'nama' => 'Dapur Rempah',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier asal surabaya yang bisa menjamin ketersediaan rempah rempah',
+            'deskripsi' => 'Supllier asal surabaya yang bisa menjamin ketersediaan rempah rempah',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Bernardi Indonesia',
-            'slug' => 'Supllier Roti Burger',
+        DB::table('supllier')->insert([
+            'nama' => 'Bernardi Indonesia',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Perusahaan penyedia bahan bahan makanan modern di indonesia',
+            'deskripsi' => 'Perusahaan penyedia bahan bahan makanan modern di indonesia',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'PT Indo Cino Global',
-            'slug' => 'Supllier Sayur Segar',
+        DB::table('supllier')->insert([
+            'nama' => 'PT Indo Cino Global',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Perusahaan yang bergerak dalam bidang penyediaan sayur mayur yang ada di Surabaya',
+            'deskripsi' => 'Perusahaan yang bergerak dalam bidang penyediaan sayur mayur yang ada di Surabaya',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Pasar Terdekat',
-            'slug' => 'Supllier Tempe',
+        DB::table('supllier')->insert([
+            'nama' => 'Pasar Terdekat',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Tempat menyuplly tempe dengan harga yang terpercaya',
+            'deskripsi' => 'Tempat menyuplly tempe dengan harga yang terpercaya',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Agen Telur Terdekat',
-            'slug' => 'Supllier Telur',
+        DB::table('supllier')->insert([
+            'nama' => 'Agen Telur Terdekat',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier telur yang sangat terpercaya',
+            'deskripsi' => 'Supllier telur yang sangat terpercaya',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Jacob Box Styrofoam Garuda',
-            'slug' => 'Supllier Box Styrofoam',
+        DB::table('supllier')->insert([
+            'nama' => 'Jacob Box Styrofoam Garuda',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier box untuk membungkus makanan yang telah kami sediakan',
+            'deskripsi' => 'Supllier box untuk membungkus makanan yang telah kami sediakan',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Distributor Peralatan Rumah Tangga',
-            'slug' => 'Supllier Alat Makan',
+        DB::table('supllier')->insert([
+            'nama' => 'Distributor Peralatan Rumah Tangga',
+            'alamat' => 'Surabaya',
             'image' => 'img/supllier/supllier.png',
-            'harga' => 0,
-            'content' => 'Supllier alat makan untuk kebutuhan makan di tempat',
+            'deskripsi' => 'Supllier alat makan untuk kebutuhan makan di tempat',
             'draft' => 0
             ]);
     }

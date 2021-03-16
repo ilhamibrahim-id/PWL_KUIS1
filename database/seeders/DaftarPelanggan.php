@@ -14,84 +14,74 @@ class DaftarPelanggan extends Seeder
      */
     public function run()
     {
-        DB::table('post')->insert([
-            'title' => 'Ereh Yaeger',
-            'slug' => 'Pelanggan 1',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Ereh Yaeger',
+            'alamat' => 'Tembok Rose 1',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 1',
+            'deskripsi' => 'Pengunjung nomer 1',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Grisya Yaeger',
-            'slug' => 'Pelanggan 2',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Grisya Yaeger',
+            'alamat' => 'Tembok Rose 2',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 2',
+            'deskripsi' => 'Pengunjung nomer 2',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Zeke Yaeger',
-            'slug' => 'Pelanggan 3',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Zeke Yaeger',
+            'alamat' => 'Tembok Rose 3',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 3',
+            'deskripsi' => 'Pengunjung nomer 3',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Mikasa Ackerman',
-            'slug' => 'Pelanggan 4',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Mikasa Ackerman',
+            'alamat' => 'Tembok Rose 4',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 4',
+            'deskripsi' => 'Pengunjung nomer 4',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Levi Ackerman',
-            'slug' => 'Pelanggan 5',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Levi Ackerman',
+            'alamat' => 'Tembok Rose 5',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 5',
+            'deskripsi' => 'Pengunjung nomer 5',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Izumi Miyamura',
-            'slug' => 'Pelanggan 6',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Izumi Miyamura',
+            'alamat' => 'Tembok Rose 6',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 6',
+            'deskripsi' => 'Pengunjung nomer 6',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Honoka Hori',
-            'slug' => 'Pelanggan 7',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Honoka Hori',
+            'alamat' => 'Tembok Rose 7',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 7',
+            'deskripsi' => 'Pengunjung nomer 7',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Mitsuhara Cizuru',
-            'slug' => 'Pelanggan 8',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Mitsuhara Cizuru',
+            'alamat' => 'Tembok Rose 8',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 8',
+            'deskripsi' => 'Pengunjung nomer 8',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Windah Basudara',
-            'slug' => 'Pelanggan 9',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Windah Basudara',
+            'alamat' => 'Tembok Rose 9',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 9',
+            'deskripsi' => 'Pengunjung nomer 9',
             'draft' => 0
             ]);
-        DB::table('post')->insert([
-            'title' => 'Sakura Hinomi',
-            'slug' => 'Pelanggan 10',
+        DB::table('pelanggan')->insert([
+            'nama' => 'Sakura Hinomi',
+            'alamat' => 'Tembok Rose 10',
             'image' => 'img/pelanggan/pelanggan.png',
-            'harga' => 0,
-            'content' => 'Pengunjung nomer 10',
+            'deskripsi' => 'Pengunjung nomer 10',
             'draft' => 0
             ]);
     }
